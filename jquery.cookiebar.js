@@ -128,9 +128,9 @@
 			//Displays the cookie bar if arguments met
 			if(options.forceShow || cookieValue=='enabled' || cookieValue==''){
 				if(options.append){
-					$('#a').append('<div id="cookie-bar" style="position:relative;float:left;width:100%;margin:0px;left:0px;top:0px;text-align:center;font:12px/20px arial,sans-serif"><p>'+message+acceptButton+declineButton+policyButton+'</p></div>');
+					$('#a').append('<div id="cookie-bar" style="position:relative;float:left;width:100%;margin:0px;left:0px;top:0px;text-align:center;font:12px/50px arial,sans-serif"><p>'+message+acceptButton+declineButton+policyButton+'</p></div>');
 				}else{
-					$('#a').prepend('<div id="cookie-bar" style="position:relative;float:left;width:100%;margin:0px;left:0px;top:0px;text-align:center;font:12px/20px arial,sans-serif"><p>'+message+acceptButton+declineButton+policyButton+'</p></div>');
+					$('#a').prepend('<div id="cookie-bar" style="position:relative;float:left;width:100%;margin:0px;left:0px;top:0px;text-align:center;font:12px/50px arial,sans-serif"><p>'+message+acceptButton+declineButton+policyButton+'</p></div>');
 				}
 			}
 			
