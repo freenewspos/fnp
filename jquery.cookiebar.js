@@ -128,9 +128,9 @@
 			//Displays the cookie bar if arguments met
 			if(options.forceShow || cookieValue=='enabled' || cookieValue==''){
 				if(options.append){
-					$(options.element).append('<div id="cookie-bar" style="background:#e8e8e8;position:fixed;width:100%;margin:0px;left:0px;top:0px;text-align:center;z-index:9999999!important;font:12px/20px arial,sans-serif"'+fixed+zindex+'><p>'+message+acceptButton+declineButton+policyButton+'</p></div>');
+					$('#a').append('<div id="cookie-bar" style="position:relative;float:left;width:100%;margin:0px;left:0px;top:0px;text-align:center;font:12px/20px arial,sans-serif"><p>'+message+acceptButton+declineButton+policyButton+'</p></div>');
 				}else{
-					$(options.element).prepend('<div id="cookie-bar" style="background:#e8e8e8;position:fixed;width:100%;margin:0px;left:0px;top:0px;text-align:center;z-index:9999999!important;font:12px/20px arial,sans-serif"'+fixed+zindex+'><p>'+message+acceptButton+declineButton+policyButton+'</p></div>');
+					$('#a').prepend('<div id="cookie-bar" style="position:relative;float:left;width:100%;margin:0px;left:0px;top:0px;text-align:center;font:12px/20px arial,sans-serif"><p>'+message+acceptButton+declineButton+policyButton+'</p></div>');
 				}
 			}
 			
